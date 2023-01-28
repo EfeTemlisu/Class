@@ -1,0 +1,18 @@
+class Resturant():
+
+  def __init__(self,name,yemek_turu):
+    self.name = name
+    self.yemek_turu = yemek_turu
+
+  def selamlama(self):
+    print("Hoşgeldiniz")
+
+  def kapanmasaati(self,x):
+    print("kapanma {} bu dur".format(x))  
+    
+    
+restoran = Resturant("kardeşler", "etlikelmek")
+
+print(restoran.name)
+
+restoran.kapanmasaati(23)
